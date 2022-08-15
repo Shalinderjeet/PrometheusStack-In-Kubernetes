@@ -1,4 +1,4 @@
-Setup Prometheus Monitoring in Kubernetes minikube cluster
+Setup Prometheus Monitoring Stack in Kubernetes minikube cluster
 
 Description:- Deploy Prometheus in local Kubernetes cluster using a Helm chart.
 
