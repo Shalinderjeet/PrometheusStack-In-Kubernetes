@@ -15,3 +15,9 @@ $kubectl get all
 2 stateful sets- a) Prometheus Server b) Alert Manager
 3 Deployments- a) Prometheus Operator b) Grafana c) Kube state metrics (dependency of this Helm chart, scrapes the k8s components)
 1 DaemonSet- Node Exportee DaemonSet (runs on all worker nodes, translates worker nodes metrics to prometheus metrics)
+
+
+$kubectl logs grafanaone -c grafana
+Its listening on port 3000
+
+$kubectl port-forward deployment/prometheus-grafana 3000
