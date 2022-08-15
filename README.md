@@ -21,3 +21,6 @@ $kubectl logs grafanaone -c grafana
 Its listening on port 3000
 
 $kubectl port-forward deployment/prometheus-grafana 3000
+
+default username-admin
+default password prom-operator
